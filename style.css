@@ -26,6 +26,10 @@ body {
   height: 75px;
 }
 
+img {
+  width: 50px;
+}
+
 @media (min-width: 720px) {
   .combo__container {
     background-image: url("assets/images/background_desktop.jpeg");
