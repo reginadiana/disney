@@ -1,0 +1,37 @@
+.download__movies__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 64px;
+}
+
+.img--download {
+  width: -webkit-fill-available;
+  margin-bottom: 32px;
+}
+
+.download__message h2 {
+  font-size: 22px;
+  margin-bottom: 24px;
+}
+
+.download__message p {
+  font-size: 18px;
+}
+
+@media (min-width: 1024px) {
+  .download__movies__container {
+    flex-direction: row;
+    text-align: left;
+  }
+
+  .download__message {
+    margin-left: 32px;
+  }
+
+  .img--download {
+    width: unset;
+  }
+}

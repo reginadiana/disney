@@ -13,6 +13,11 @@ body {
   color: var(--white);
 }
 
+/* Normalize */
+ul {
+  list-style: none;
+}
+
 /* Start Combo Style */
 .combo__container {
   background-image: url("assets/images/background_mobile.jpeg");
@@ -27,7 +32,7 @@ body {
 }
 
 img {
-  width: 50px;
+  width: -webkit-fill-available;
 }
 
 @media (min-width: 720px) {

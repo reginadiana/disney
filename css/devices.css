@@ -1,0 +1,40 @@
+.available__devices__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.available__devices__container h2 {
+  font-size: 28px;
+}
+
+.available__devices--inner {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.device__container {
+  margin-right: 16px;
+}
+
+.device__container h3 {
+  font-size: 24px;
+  margin: 20px 0 16px;
+}
+
+.img--available {
+  width: 100px;
+}
+
+.device__container li {
+  margin-top: 8px;
+}
+
+@media (min-width: 720px) {
+  .img--available {
+    width: 300px;
+  }
+}
