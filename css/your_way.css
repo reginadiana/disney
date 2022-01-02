@@ -1,0 +1,39 @@
+.your__way__container {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  text-align: center;
+  font-size: 15px;
+  padding: 64px;
+}
+
+.your__way__message h3 {
+  margin: 32px 0;
+}
+
+.img--way {
+  width: unset;
+  width: 80%;
+}
+
+@media (min-width: 820px) {
+ .your__way__container {
+     flex-direction: row-reverse;
+     text-align: left;
+     justify-content: space-around;
+     font-size: 20px;
+ }   
+
+ .your__way__message {
+    width: 100%;
+    max-width: 700px;
+ }
+
+ .your__way__message h3 {
+    font-size: 40px;
+  }
+
+ .img--way {
+    width: 50%;
+  }
+}

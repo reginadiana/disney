@@ -6,6 +6,7 @@
 :root {
   --black: #040714;
   --white: #fff;
+  --blue: #0063e5;
 }
 
 body {
@@ -18,30 +19,6 @@ ul {
   list-style: none;
 }
 
-/* Start Combo Style */
-.combo__container {
-  background-image: url("assets/images/background_mobile.jpeg");
-  background-size: cover;
-  width: 100%;
-  height: 500px;
-}
-
-.img--combo {
-  width: 180px;
-  height: 75px;
-}
-
 img {
   width: -webkit-fill-available;
 }
-
-@media (min-width: 720px) {
-  .combo__container {
-    background-image: url("assets/images/background_desktop.jpeg");
-  }
-}
-
-/* End Combo Style */
-
-/* Start Your Way Style */
-/* End Your Way Style */
